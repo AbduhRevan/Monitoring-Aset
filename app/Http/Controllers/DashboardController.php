@@ -19,7 +19,7 @@ class DashboardController extends Controller
             abort(403, 'Unauthorized');
         }
         
-        return view('auth.dashboard.superadmin', compact('user'));
+        return view('dashboard.superadmin', compact('user'));
     }
 
     /**
@@ -34,7 +34,7 @@ class DashboardController extends Controller
             abort(403, 'Unauthorized');
         }
         
-        return view('auth.dashboard.adminbidang', compact('user'));
+        return view('dashboard.adminbidang', compact('user'));
     }
 
     /**
@@ -49,6 +49,6 @@ class DashboardController extends Controller
             abort(403, 'Unauthorized');
         }
         
-        return view('auth.dashboard.pimpinan', compact('user'));
+        return view('dashboard.pimpinan', compact('user'));
     }
 }

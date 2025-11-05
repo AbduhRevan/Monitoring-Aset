@@ -68,13 +68,13 @@ class LoginController extends Controller
 
         switch ($user->role) {
             case 'superadmin':
-                return redirect()->route('superadmin.dashboard');
+                return redirect()->route('dashboard.superadmin');
                 
             case 'adminbidang':
-                return redirect()->route('adminbidang.dashboard');
+                return redirect()->route('dashboard.adminbidang');
                 
             case 'pimpinan':
-                return redirect()->route('pimpinan.dashboard');
+                return redirect()->route('dashboard.pimpinan');
                 
             default:
                 Auth::logout();
