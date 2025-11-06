@@ -618,13 +618,6 @@
         <div class="top-navbar">
             <div class="navbar-left">
                 <h5>Data Master Bidang</h5>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="#">Data Master</a></li>
-                        <li class="breadcrumb-item active">Bidang</li>
-                    </ol>
-                </nav>
             </div>
             <div class="navbar-right">
                 <div class="user-info">
