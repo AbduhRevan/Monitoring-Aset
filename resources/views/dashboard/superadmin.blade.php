@@ -487,7 +487,7 @@
         <div class="top-navbar">
             <div class="navbar-left">
                 <h5>Dashboard Super Admin</h5>
-                <p>Selamat datang di Sistem Informasi Manajemen Aset Server</p>
+                <p>Selamat datang di Sistem Informasi Manajemen Aset Terpadu</p>
             </div>
             <div class="navbar-right">
                 <div class="user-info">
